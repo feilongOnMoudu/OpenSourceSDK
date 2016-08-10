@@ -1,0 +1,17 @@
+workspace 'OpenSourceSDK'
+
+project 'Demo/Demo.xcodeproj'
+project 'PushUtil/PushUtil.xcodeproj'
+
+target 'Demo' do
+platform:ios, '8.0'
+
+project 'Demo/Demo.xcodeproj'
+end
+
+target 'PushUtil' do
+platform:ios, '8.0'
+pod 'JPush', '~> 2.1.8'
+pod 'QQ_XGPush', '~> 2.4.9'
+project 'PushUtil/PushUtil.xcodeproj'
+end
