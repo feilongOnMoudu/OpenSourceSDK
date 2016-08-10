@@ -22,7 +22,7 @@
 
 + (void)jPushSetAccount:(NSString *)account;
 
-+ (void)jPushUnRegisterDevice;
++ (void)jPushUnRegisterDevice; 
 
 /**
  *  注册要处理的远程通知类型
